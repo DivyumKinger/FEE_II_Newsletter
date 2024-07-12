@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Website - Gallery</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #363737;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .logo {
+            max-width: 150px;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .gallery {
+            display: grid;
+            background-color: #FAFAFA;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .news-item {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .news-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .news-content {
+            padding: 1rem;
+        }
+
+        footer {
+            background-color: #363737;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        nav {
+            background-color: #FAFAFA;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="newsletter.html"> <img src="logo.png" alt="Newsletter Logo" class="logo"></a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="newsletter.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>News Gallery</h1>
+        <div class="gallery">
+            <div class="news-item">
+                <img src="https://media.istockphoto.com/id/1253038960/photo/breaking-news-on-screen.webp?s=1024x1024&w=is&k=20&c=5_km6_Hz4WZrlNdYTmU-lcn3_jkAnrH84mOGQ8qmiDE="
+                    alt="News 1">
+                <div class="news-content">
+                    <h2>Breaking News 1</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="https://media.istockphoto.com/id/1358835459/photo/robotic-process-automation-technology-to-automate-business-tasks-with-ai-concept-with-expert.jpg?s=1024x1024&w=is&k=20&c=8AAKY15Gp_Wf5pis9j2Yu1bgW0Eg1bGJOXWuwda1KmY="
+                    alt="News 2">
+                <div class="news-content">
+                    <h2>Tech Update</h2>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.</p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="https://media.istockphoto.com/id/1163147277/photo/soccer-player-in-action-a-stadium.jpg?s=1024x1024&w=is&k=20&c=NKuLkMWbUNsC5oD1sZ_KhBudkQJCj-cO5ox9223BjSg="
+                    alt="News 3">
+                <div class="content">
+                    <h2>Sports Highlights</h2>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur.</p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="https://media.istockphoto.com/id/171588907/photo/multiple-television-screens-in-blue-tones.jpg?s=1024x1024&w=is&k=20&c=41MFNF6It3EeLstL38pDcikmv5otAVs4uYckTLVwA0Y="
+                    alt="News 4">
+                <div class="news-content">
+                    <h2>Entertainment Buzz</h2>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                        est laborum.</p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="https://media.istockphoto.com/id/953674568/photo/healthy-lifestyle-concept-clean-food-good-health-dietary-in-heart-dish-with-sporty-gym-aerobic.webp?s=1024x1024&w=is&k=20&c=5wjdk8dDyjUc81F50tiOTyLHZiufoHsxYuXBv6sv0rI="
+                    alt="News 5">
+                <div class="news-content">
+                    <h2>Health & Wellness</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="https://media.istockphoto.com/id/1160000498/photo/business-partnership-meeting-in-office.webp?s=1024x1024&w=is&k=20&c=bMPJUtkEzbyrjEB2awlHzUIvJYdrRV0V-bCfFmTTXO0="
+                    alt="News 6">
+                <div class="news-content">
+                    <h2>Business Insights</h2>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.</p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="https://media.istockphoto.com/id/1332953647/photo/asian-chinese-mid-adult-female-astronaut-looking-at-earth-through-window-from-spaceship-at.webp?s=1024x1024&w=is&k=20&c=Eu9Pk0Q-avqtELzGe1YwVD2ryFrx_1G3Eahzko2zUqM="
+                    alt="News 7">
+                <div class="news-content">
+                    <h2>Science Discovery</h2>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur.</p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="https://media.istockphoto.com/id/1176439818/photo/making-a-memory.webp?s=1024x1024&w=is&k=20&c=Yk_c7POcnawBoIHQEMHu9o2tRsPvvzYwL_XJuqcv5Sg="
+                    alt="News 8">
+                <div class="news-content">
+                    <h2>Travel Destinations</h2>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                        est laborum.</p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="https://media.istockphoto.com/id/1295633127/photo/grilled-chicken-meat-and-fresh-vegetable-salad-of-tomato-avocado-lettuce-and-spinach-healthy.webp?s=1024x1024&w=is&k=20&c=2HQ3drj21kzwpvGYh-YjAmPVShsv7vbnOPNEJ-lg_pQ="
+                    alt="News 9">
+                <div class="news-content">
+                    <h2>Food & Cuisine</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="https://media.istockphoto.com/id/184145583/photo/a-young-plant-growing-in-a-newspaper-pot-being-held-by-hands.webp?s=1024x1024&w=is&k=20&c=g1t3D9MT9uWdYStYbS1o7Y2mACmM1KVl8BUdwhQ2i8k="
+                    alt="News 10">
+                <div class="news-content">
+                    <h2>Environmental News</h2>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Contact us: email@example.com | Phone: (123) 456-7890</p>
+        <p>Address: Chitkara Univerity, Punjab </p>
+    </footer>
+</body>
+
+</html>
